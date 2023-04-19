@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(bc -l <<< "scale=2; $BREATH ^ $LOVE")
+echo $(printf "%.2f" $(echo "e(l($BREATH)*$LOVE)" | bc -l))
