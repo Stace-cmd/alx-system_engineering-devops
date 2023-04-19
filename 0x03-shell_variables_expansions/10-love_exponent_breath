@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(printf "%.2f" $(echo "e(l($BREATH)*$LOVE)" | bc -l))
+echo $((BREATH**LOVE))
