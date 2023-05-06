@@ -1,2 +1,5 @@
 #!/bin/bash
-ls -al | cat <(cd .. && ls -al) <(cd /boot && ls -al)
+ls -al
+ls -al ..
+ls -al /boot
+
