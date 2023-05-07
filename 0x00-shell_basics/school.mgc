@@ -1,2 +1,2 @@
 #!/bin/bash
-file -m /usr/share/misc/magic /path/to/School/data/file
+$ ./create_school_mgc.sh
